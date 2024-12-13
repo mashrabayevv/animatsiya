@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overlow Example</title>
+    <style>
+        .container {
+            width: 200px;
+            height: 150px;
+            overflow: scroll;
+            border: 2px solid black;
+        }
+        .content {
+            width: 300px;
+            height: 30px;
+            background-color: lightblue;
+        }
+    </style>
+    <style>
+        .transpert {
+            background-color: lightcoral;
+            width: 200px;
+            height: 200px;
+            opacity: 0.5;
+        }
+    </style>
+    <style>
+        .quote::before {
+            content: "``";
+            font-size: 30px;
+            color: gray;
+        }
+    </style>
+    <style>
+        .box::after {
+            content: ;
+            font-size: 24px;
+            margin-left: 10pdx;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            Bu katta kontent ! scroll orqali butun tarkibni korishingiz mumkin.
+
+        </div>
+    </div>
+    <div class="transpert">
+        Bu yarim shaffof element
+    </div>
+    <div class="quote">
+        Bu birinchi misol , quote qoshish uchun ishlatiladi.
+    </div>
+    <div class="box">
+        Bu yerda .... belgi korsatilgan. 
+    </div>
+</body>
+</html>
